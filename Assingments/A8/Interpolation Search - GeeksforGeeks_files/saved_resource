@@ -1,0 +1,48 @@
+
+var ftGUID_5875039="54348B827108B8";
+var ftConfID_5875039="0";
+var ftParams_5875039="ft_custom=VvwlLFGtdyMe_HcgBuElclauPHYH-CU5BvghJQWtJyYH-nMj1bAgJg==&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2F51b002187fc7d626c49f8955706547de.safeframe.googlesyndication.com%2Fsafeframe%2F1-0-40%2Fhtml%2Fcontainer.html&gdpr=0&cachebuster=369073.33951884636";
+var ftKeyword_5875039="";
+var ftCustom_5875039="VvwlLFGtdyMe_HcgBuElclauPHYH-CU5BvghJQWtJyYH-nMj1bAgJg==";
+var ftSection_5875039="";
+var ftSegment_5875039="";
+var ftSegmentList_5875039=[];
+var ftRuleMatch_5875039="0";
+var ftTimestamp_5875039="1669244837";
+var ftGeoC2_5875039="ca";
+var ftGeoState_5875039="on";
+var ftGeoCity_5875039="toronto";
+var ftISP_5875039="shaw communications inc.";
+var ftSpeed_5875039="cable";
+var ftDMA_5875039="124535";
+var ftLong_5875039="-79.54";
+var ftLat_5875039="43.74";
+var ftPostal_5875039="m9m 0b1";
+var ftTimeZone_5875039="-500";
+var ftMobileCarrier_5875039="";
+var ftImp5875039 = {};
+ftImp5875039.privacy = "x";
+ftImp5875039.guidAge = "6";
+ftImp5875039.impID = "B87B0474-F647-8636-4CFC-F61679263EFB";
+ftImp5875039.duid = "FT:54348B827108B8";
+
+ftImp5875039.ft_tpplid = "";
+ftImp5875039.ft_c = {};
+ftImp5875039.gdpr = "0";
+ftImp5875039.gdpr_consent = "";
+ftImp5875039.gdpr_pd = "";
+ftImp5875039.oob_consent = "";
+ftImp5875039.gdprStoredConsent = "";
+ftImp5875039.us_privacy = "";
+
+ftImp5875039.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_5875039') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/587/5875039/3873395/js/j-5875039-3873395.js";
+    js.id = "ftscript_m5875039";
+    tag.parentNode.insertBefore(js, tag);
+}());

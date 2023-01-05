@@ -1,0 +1,137 @@
+html, body, p {
+    font-family: BellSlim, Arial, sans-serif;
+    font-size: 12px; /* base all ems on this */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0; padding: 0;
+}
+
+sup { line-height: 0; }
+
+em { color: #00549a; font-style: normal; }
+
+column { display: inline-block; vertical-align: top; margin: 0 0 0 10px; }
+
+.bellframe {
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+.frameimg, .bella, .logo{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+}
+
+.bellframe h1, .bellframe h2, .bellframe h3, .bellframe h4, .bellframe h5, .bellframe h6 {
+    font-family: BellSlimMedium;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.bellframe h1 { font-size: 2em; }
+.bellframe h2 { font-size: 1.8em; }
+.bellframe h3 { font-size: 1.6em; }
+.bellframe h4 { font-size: 1.4em; }
+.bellframe h5 { font-size: 1.2em; }
+.bellframe h6 { font-size: 1em; }
+
+.bellframe p, .bellframe section, .bellframe footer, .bellframe button {
+    margin: 0 0 10px;
+}
+
+/* Price styling */
+.bellframe section div {
+    display: block;
+    color: #00549a;
+    font-size: 3em;
+    font-family: BellSlimMedium;
+    font-weight: 700;
+}
+
+.bellframe section div sup {
+    font-size: 0.4em;
+}
+
+.bellframe section span {
+    display: block;
+    color: #000;
+    font-size: 0.9em;
+}
+
+/* cta styling */
+.bellframe button {
+    font-family: BellSlim, Arial, sans-serif;
+    border: none;
+    color: #ffffff;
+    font-size: 1.0em;
+    padding: 5px 15px;
+    background: #003778;
+    border-radius: 30px;
+}
+.bellframe button.arrow {
+    color: #003778;
+    padding: 4px 33px 4px 0;
+    background: url(assets/cta-arrow.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+gwd-page:hover button {
+    background: #00549a;
+}
+gwd-page:hover button.arrow {
+    padding: 4px 30px 4px 0;
+    color: #00549a;
+}
+
+/* legal styling */
+summary {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 3px;
+    margin: 6px;
+    font-size: 0.8em;
+    cursor: pointer;
+    color: #003778;
+    background: url(assets/cta-arrow.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+summary.topright {
+    left: auto;
+    right: 0;
+}
+summary.bottomleft {
+    top: auto;
+    bottom: 0;
+}
+summary.bottomright {
+    top: auto; left: auto;
+    bottom: 0; right: 0;
+}
+footer {
+    position: absolute;
+    background: #ffffff;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    padding: 10px;
+    display: none;
+    font-size: 0.8em;
+}
+
+/* Safari only */ .bellframe h1:not(:root:root), .bellframe h2:not(:root:root), .bellframe h3:not(:root:root), .bellframe h4:not(:root:root), .bellframe h5:not(:root:root), .bellframe h6:not(:root:root) { 
+    font-weight: 100;
+}
+/* Safari only */ .bellframe section div:not(:root:root), {
+    font-weight: 100;
+}

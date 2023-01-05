@@ -1,0 +1,4 @@
+"start with the range %d to %d\n"
+"%d not in the range between %d and %d\n"
+"%d was found in position %d\n"
+"move to search in the range between %d and %d\n"
